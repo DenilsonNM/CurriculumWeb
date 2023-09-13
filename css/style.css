@@ -1,0 +1,93 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  /* max-width: 1200px; */
+}
+body{
+  font-family: helvetica;
+  font-size: 16px;
+  line-height: 24px;
+  color: #333;
+}
+.borde{
+  border: 1px red solid;
+}
+
+.pagina{
+  display: flex;
+}
+.datosizq{
+  flex: 2;
+  background-color: #2086a0;
+  color: white;
+}
+.fotoperfil{
+  width: 100%;
+  height: auto;
+  filter: grayscale(100%);
+}
+.datosizq2{
+  padding: 50px;
+}
+.nombre{
+  text-align: center;
+  line-height: 44px;
+}
+.nombre h1{
+  font-size: 40px;
+}
+.nombre h3{
+  font-weight: lighter;
+}
+.tablaizq{
+  width: 100%;
+  border-collapse: collapse;
+  text-align: justify;
+}
+.tablaizq th, td {
+  border: 2px solid white;
+  padding: 10px;
+  border-left: none;
+  border-right: none;
+}
+.tablaizq td{
+  text-align: right;
+}
+.tablaizq span{
+  font-weight: lighter;
+}
+.tablaizq img{
+  border-radius: 10px;
+  width: 35px;
+  padding: 3px;
+  background-color: white;
+}
+
+/* ------------------------------------------------------------- */
+
+.datosder{
+  flex: 3;
+  padding: 20px;
+}
+@media(max-width:1000px){
+  .datosder{
+    background-color: #d6d6d6;
+    font-size: 14px;
+  }
+}
+.datosder2{
+  text-align: justify;
+  padding: 30px;
+}
+.tablader{
+  width: 100%;
+  border-collapse: collapse;
+}
+.tablader th{
+  border-top: 10px solid #333;
+  padding: 15px;
+}
+.nobordertop{
+  border-top: none;
+}
