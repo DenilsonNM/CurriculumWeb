@@ -1,63 +1,64 @@
-*{
+* {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
   /* max-width: 1200px; */
 }
-body{
+body {
   font-family: helvetica;
   font-size: 16px;
   line-height: 24px;
   color: #333;
 }
-.borde{
+.borde {
   border: 1px red solid;
 }
 
-.pagina{
+.pagina {
   display: flex;
 }
-.datosizq{
+.datosizq {
   flex: 2;
   background-color: #2086a0;
   color: white;
 }
-.fotoperfil{
+.fotoperfil {
   width: 100%;
   height: auto;
   filter: grayscale(100%);
 }
-.datosizq2{
+.datosizq2 {
   padding: 50px;
 }
-.nombre{
+.nombre {
   text-align: center;
   line-height: 44px;
 }
-.nombre h1{
+.nombre h1 {
   font-size: 40px;
 }
-.nombre h3{
+.nombre h3 {
   font-weight: lighter;
 }
-.tablaizq{
+.tablaizq {
   width: 100%;
   border-collapse: collapse;
   text-align: justify;
 }
-.tablaizq th, td {
+.tablaizq th,
+td {
   border: 2px solid white;
   padding: 10px;
   border-left: none;
   border-right: none;
 }
-.tablaizq td{
+.tablaizq td {
   text-align: right;
 }
-.tablaizq span{
+.tablaizq span {
   font-weight: lighter;
 }
-.tablaizq img{
+.tablaizq img {
   border-radius: 10px;
   width: 35px;
   padding: 3px;
@@ -66,28 +67,28 @@ body{
 
 /* ------------------------------------------------------------- */
 
-.datosder{
+.datosder {
   flex: 3;
   padding: 20px;
 }
-@media(max-width:1000px){
-  .datosder{
+@media (max-width: 1000px) {
+  .datosder {
     background-color: #d6d6d6;
     font-size: 14px;
   }
 }
-.datosder2{
+.datosder2 {
   text-align: justify;
   padding: 30px;
 }
-.tablader{
+.tablader {
   width: 100%;
   border-collapse: collapse;
 }
-.tablader th{
+.tablader th {
   border-top: 10px solid #333;
   padding: 15px;
 }
-.nobordertop{
+.nobordertop {
   border-top: none;
 }
