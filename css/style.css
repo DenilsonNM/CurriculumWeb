@@ -23,6 +23,10 @@ body {
   color: white;
 }
 .fotoperfil {
+  max-width: 100%;
+  overflow: hidden;
+}
+.fotoperfil img{
   width: 100%;
   height: auto;
   filter: grayscale(100%);
@@ -69,26 +73,44 @@ td {
 
 .datosder {
   flex: 3;
-  padding: 20px;
+  padding-left: 5%;
+  padding-right: 5%;
 }
-@media (max-width: 1000px) {
+/* @media (max-width: 1000px) {
   .datosder {
     background-color: #d6d6d6;
     font-size: 14px;
   }
-}
+} */
 .datosder2 {
   text-align: justify;
-  padding: 30px;
 }
 .tablader {
-  width: 100%;
+  /* width: 100%; */
   border-collapse: collapse;
 }
 .tablader th {
-  border-top: 10px solid #333;
-  padding: 15px;
+  padding: 2%;
 }
-.nobordertop {
-  border-top: none;
+.tabladerborde {
+  border-top: 10px solid #333;
+}
+.tablader h1 {
+  color: #2086a0;
+  font-weight: normal;
+}
+.tablader h3 {
+  font-weight: lighter;
+}
+ul {
+  list-style-type: none;
+}
+li {
+  position: relative;
+  padding-left: 4%;
+}
+li::before {
+  content: "\25A0";
+  position: absolute;
+  left: 0;
 }
