@@ -26,7 +26,7 @@ body {
   max-width: 100%;
   overflow: hidden;
 }
-.fotoperfil img{
+.fotoperfil img {
   width: 100%;
   height: auto;
   filter: grayscale(100%);
@@ -73,8 +73,6 @@ td {
 
 .datosder {
   flex: 3;
-  padding-left: 5%;
-  padding-right: 5%;
 }
 /* @media (max-width: 1000px) {
   .datosder {
@@ -84,6 +82,8 @@ td {
 } */
 .datosder2 {
   text-align: justify;
+  padding-left: 5%;
+  padding-right: 5%;
 }
 .tablader {
   /* width: 100%; */
@@ -113,4 +113,19 @@ li::before {
   content: "\25A0";
   position: absolute;
   left: 0;
+}
+.tbfechas {
+  display: flex;
+}
+.tbf1 {
+  /* position: relative; */
+  background-color: #2086a0;
+  color: white;
+  margin: 6% 0%;
+  width: 50%;
+  text-align: center;
+  padding-top: 1%;
+}
+.tbf2 {
+  padding-left: 30px;
 }
